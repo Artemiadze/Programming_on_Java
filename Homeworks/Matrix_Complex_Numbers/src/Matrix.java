@@ -20,6 +20,10 @@ public class Matrix {
 
     //сумма матриц
     public Matrix sum(Matrix other) {
+        if (this.col != other.col || this.row != other.row){
+            System.out.print("Error! Different sizes of matrices and system return the identity matrix\n");
+            return new Matrix(1, 1);
+        }
         Matrix result = new Matrix(matrix.length, matrix[0].length);
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -33,6 +37,11 @@ public class Matrix {
 
     //разность матриц
     public Matrix diff(Matrix other) {
+        if (this.col != other.col || this.row != other.row){
+            System.out.print("Error! Different sizes of matrices and system return the identity matrix\n");
+            return new Matrix(1, 1);
+        }
+
         Matrix result = new Matrix(matrix.length, matrix[0].length);
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -73,7 +82,7 @@ public class Matrix {
             }
             return result;
         }
-        System.out.print("You can't multiply these matrix's and system return the identity matrix\n");
+        System.out.print("Error! You can't multiply these matrix's and system return the identity matrix\n");
         return new Matrix(1, 1);
     }
 
@@ -102,7 +111,7 @@ public class Matrix {
     public Complex determinant()
     {
         if (this.row != this.col) {
-            System.out.println("You can't calculate determinant and system return the zero");
+            System.out.println("Error! You can't calculate determinant and system return the zero\n");
             return new Complex();
         }
         if (this.row == 1) {
