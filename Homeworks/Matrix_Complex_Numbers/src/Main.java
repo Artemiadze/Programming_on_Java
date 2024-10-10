@@ -30,6 +30,15 @@ public class Main {
         matrix2.setElement(1, 1, new Complex(8, 9));
         System.out.println(); //пустая строка для эстетики
 
+        //печать матриц:
+        System.out.print("Matrix1\n");
+        matrix1.print();
+        System.out.println(); //пустая строка для эстетики
+
+        System.out.print("Matrix2\n");
+        matrix2.print();
+        System.out.println(); //пустая строка для эстетики
+
         //сумма матриц
         System.out.print("Matrix1 + Matrix2:\n");
         Matrix sum = matrix1.sum(matrix2);
@@ -71,6 +80,10 @@ public class Main {
         matrix3x3.setElement(2, 0, new Complex(3, 2));
         matrix3x3.setElement(2, 1, new Complex(2, 1));
         matrix3x3.setElement(2, 2, new Complex(3, 2));
+
+
+        System.out.print("Matrix3x3\n");
+        matrix3x3.print();
 
         //Транспонировал  матрицу 3x3
         System.out.println(); //пустая строка для эстетики
