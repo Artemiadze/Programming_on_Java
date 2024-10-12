@@ -35,6 +35,7 @@ public class Complex {
         this.im = imValue;
     }
 
+
     public Complex sum(Complex other)     // сумма комплексных чисел
     {
         return new Complex(this.re + other.re, this.im + other.im);
@@ -66,6 +67,7 @@ public class Complex {
         result.im /= tmpDiv.re;
         return result;
     }
+
 
     // вывод комплексного числа/комплексных чисел
     public void print()

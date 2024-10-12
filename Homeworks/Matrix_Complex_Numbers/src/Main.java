@@ -69,6 +69,7 @@ public class Main {
         deter_matrix1.print();
         System.out.println(); //пустая строка для эстетики
 
+
         //создание матрицы 3х3
         Matrix matrix3x3 = new Matrix(3, 3);
         matrix3x3.setElement(0, 0, new Complex(1, 2));
