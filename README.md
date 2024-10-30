@@ -24,3 +24,5 @@
 * [Лекция №1](/Lectures/Lecture%201.%20Intro.pptx)
 * [Лекция №2](/Lectures/Lecture%202.%20Syntax.pptx)
 * [Лекция №3](/Lectures/Lecture%203.%20Classes.pptx)
+* [Лекция №4](/Lectures/Lecture%204.%20Exceptions.pptx)
+* [Лекция №5](/Lectures/Lecture%205.%20Console%20IO.pptx)
