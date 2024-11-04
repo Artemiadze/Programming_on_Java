@@ -26,3 +26,4 @@
 * [Лекция №3](/Lectures/Lecture%203.%20Classes.pptx)
 * [Лекция №4](/Lectures/Lecture%204.%20Exceptions.pptx)
 * [Лекция №5](/Lectures/Lecture%205.%20Console%20IO.pptx)
+* [Лекция №6](/Lectures/Lecture%206.%20Library.pptx)
