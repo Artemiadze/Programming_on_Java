@@ -9,12 +9,14 @@ public class Age {
 
     //Определение возраста
     public String CalculatorAge(){
+        //отсчитываем сегодняшную дату
         LocalDate today = LocalDate.now();
         int year = today.getYear();
         int month = today.getMonthValue();
         int day = today.getDayOfMonth();
 
-        String[] birthday = birth_date.split("[_.\\s]");
+        //запоминаем дату рождения
+        String[] birthday = birth_date.split("[_.\\s]"); //регулярные выражения наше всё
         int age_year = year - Integer.parseInt(birthday[2]);
         int age_month = month - Integer.parseInt(birthday[1]);
         int age_day = day - Integer.parseInt(birthday[0]);
@@ -25,6 +27,8 @@ public class Age {
             age_year = age_year - 1;
         }
 
+
+        //добавляем годовое исчисление
         String string_age = String.valueOf(age_year);
         if (age_year %10 == 1){
             string_age += " год";

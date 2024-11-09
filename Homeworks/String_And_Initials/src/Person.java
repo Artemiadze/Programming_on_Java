@@ -29,6 +29,7 @@ public class Person {
     public String getGender(){
         String gender = "М";
         char[] charArray = makeCharArray();
+        //смотрим по последней букве отчества
         if (charArray[Len-1] == 'а'){
             gender = "Ж";
         }
