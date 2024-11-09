@@ -1,4 +1,3 @@
-import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Main {
@@ -16,6 +15,6 @@ public class Main {
 
 
         Age person_age = new Age(birth_date);
-        System.out.println("Возраст: "+person_age.CalculatorAge());
+        System.out.println("Возраст: "+ person_age.CalculatorAge());
     }
 }
