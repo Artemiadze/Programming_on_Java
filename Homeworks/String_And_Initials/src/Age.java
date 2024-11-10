@@ -21,6 +21,18 @@ public class Age {
         int age_month = month - Integer.parseInt(birthday[1]);
         int age_day = day - Integer.parseInt(birthday[0]);
 
+
+        //проверка на корректность введённых данных для даты
+        if (Integer.parseInt(birthday[0]) > 31 || Integer.parseInt(birthday[0]) <= 0){
+            return "Неправильное значение для номера дня! Введите нормально!";
+        }
+        if (Integer.parseInt(birthday[1]) > 12 || Integer.parseInt(birthday[1]) < 1){
+            return "Неправильное значение для номера месяца!  Введите нормально!";
+        }
+        if (Integer.parseInt(birthday[2]) > year || Integer.parseInt(birthday[2]) < 1){
+            return "Неправильное значение для номера года!  Введите нормально!";
+        }
+
         //Если человеку несколько дней месяцев до ДР,
         // то вычитаем год, так как ему столько лет не сиполнилось в этом году
         if ((age_day < 0 && age_month <= 0)|| age_month < 0){
