@@ -27,3 +27,6 @@
 * [Лекция №4](/Lectures/Lecture%204.%20Exceptions.pptx)
 * [Лекция №5](/Lectures/Lecture%205.%20Console%20IO.pptx)
 * [Лекция №6](/Lectures/Lecture%206.%20Library.pptx)
+* [Лекция №7](/Lectures/Lecture%207.%20Generics.pptx)
+* [Лекция №8](/Lectures/Lecture%208.%20Collections.pptx)
+* [Лекция №9](/Lectures/Lecture%209.%20Networking.pptx)
