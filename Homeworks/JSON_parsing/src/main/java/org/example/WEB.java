@@ -161,6 +161,7 @@ public class WEB {
                 // Печатаем список Users в красивом формате
                 for (Companies one_company : usersCompanies) {
                     System.out.println(one_company);
+                    System.out.println("\n");
                 }
             } else {
                 System.out.println("The received data is not a JSON array.");
