@@ -120,17 +120,17 @@ public class Users {
     @Override
     public String toString() {
         return "Users {" + '\n' +
-                "id=" + id + '\n' +
-                ", name='" + name + '\n' +
-                ", company='" + company + '\n' +
-                ", username='" + username + '\n' +
-                ", email='" + email + '\n' +
-                ", address='" + address + '\n' +
-                ", zip='" + zip + '\n' +
-                ", state='" + state + '\n' +
-                ", country='" + country + '\n' +
-                ", phone='" + phone + '\n' +
-                ", photo='" + photo + '\n' +
+                " id = " + id +'\n' +
+                " name = '" + name + "'\n" +
+                " company = '" + company + "'\n" +
+                " username = '" + username + "'\n" +
+                " email = '" + email + "'\n" +
+                " address = '" + address + "'\n" +
+                " zip = '" + zip + "'\n" +
+                " state = '" + state + "'\n" +
+                " country = '" + country + "'\n" +
+                " phone = '" + phone + "'\n" +
+                " photo = '" + photo + "'\n" +
                 '}';
     }
 }
