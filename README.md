@@ -30,3 +30,8 @@
 * [Лекция №7](/Lectures/Lecture%207.%20Generics.pptx)
 * [Лекция №8](/Lectures/Lecture%208.%20Collections.pptx)
 * [Лекция №9](/Lectures/Lecture%209.%20Networking.pptx)
+* [Лекция №9 на Русском](/Lectures/Lecture%209.%20Networking_RU.pptx)
+* [Лекция №10](/Lectures/Lecture%2010.%20Threads%20&%20Concurrency.ppt)
+* [Лекция №11](/Lectures/Lecture%2011.%20Lambdas%20&%20Streams.pptx)
+
+
